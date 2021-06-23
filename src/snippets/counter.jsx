@@ -1,3 +1,4 @@
+// Use {} to extract function to be used directly from modules
 import React, { useState } from "react";
 
 export function Counter() {
@@ -13,6 +14,11 @@ export function Counter() {
 }
 
 export const CounterHooks = () => {
+
+  // Destructing is done
+  // useState is a hook used to work with states in function component
+  // Left side - Variable and function
+  // Right side - Initial value set to zero
   const [count, setCount] = useState(0);
 
   return (
