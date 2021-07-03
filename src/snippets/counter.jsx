@@ -14,7 +14,6 @@ export function Counter() {
 }
 
 export const CounterHooks = () => {
-
   // Destructing is done
   // useState is a hook used to work with states in function component
   // Left side - Variable and function
